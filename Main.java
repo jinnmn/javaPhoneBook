@@ -21,14 +21,9 @@ public class Main {
         myPhoneBook.add(name1, phone3);
         myPhoneBook.add(name2, phone3);
         myPhoneBook.add(name3, phone3);
-
-        // Collections.sort(myPhoneBook,new MyComporator());
-
         
         System.out.println(myPhoneBook.find(name1));
-        System.out.println(PhoneBook.getPhoneBook());
-        System.out.println(PhoneBook.getPhoneBook().entrySet());
-
+        
         PhoneBook.printOuted();
 
         
